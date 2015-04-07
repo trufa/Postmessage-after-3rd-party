@@ -1,4 +1,4 @@
-# Postmessage-after-3rd-party
+# PostMessage after 3rd party redirect
 
 Proof of concpt for a postMessage after 3 party redirect.
 
