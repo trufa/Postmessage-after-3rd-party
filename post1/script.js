@@ -1,5 +1,5 @@
 //create popup window
-var domain = 'http://localhost';
+var domain = 'http://localhost2';
 var myPopup = window.open('http://thirdparty/postM/third/index.html','myWindow');
 
 //periodical message sender
@@ -11,7 +11,7 @@ setInterval(function(){
 
 //listen to holla back
 window.addEventListener('message',function(event) {
-	if(event.origin !== 'http://localhost'){
+	if(event.origin !== 'http://localhost2'){
 		console.log('Event origin: ', event.origin);
 		return;
 	}
